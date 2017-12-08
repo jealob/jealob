@@ -1,0 +1,102 @@
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+}
+
+/* Header */
+#header{
+	text-align:center;
+}
+
+/* Main Content */
+
+#main-block {
+	background-image: url(background.png);
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	width:auto;
+	display:inline-block;
+	border-radius: 5px;
+}/*creates a block that covers 100% of the webpage such that a 
+header and a footer will always be above and under it respectively*/ 
+
+#content { 
+	margin: 0.5rem;
+	padding: 0.075rem;
+	width: 70%;
+	display: inline-block;
+	position:static;
+	float:left;
+}
+
+.cat-1 {
+	height: 0.5rem;
+	width: 100%;
+	display:inline-block;
+	float:left;
+	margin: 1rem;
+	padding: 1rem;
+
+}
+
+.cat-1 h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:left;
+}
+
+.cat {
+	height: 4rem;
+	width: 10rem;
+	display: block;
+	float:left;
+	margin: 0rem 1rem;
+	padding: 0rem 1rem;
+}
+
+.cat p {
+	text-align:center;
+}
+
+
+.main {
+	background-color:Gainsboro;
+	border-radius: 5px;
+	margin: 0.5rem;
+	padding: 0.075rem;
+	display:inline-block;
+	width: 65%;
+}
+	
+.main p {
+	float:left;
+	margin: 0.5rem;
+	padding:0.5rem;
+	text-align:justify;
+}
+
+/* Extras */
+.side {
+	margin-top: 1.5em;
+	display:inline-block;
+	float:none;
+	position: fixed;	
+}
+
+img { 
+	border-radius:10%;	
+}
+
+/* Footer */
+
+footer {
+	width:auto;
+  	height:1rem;
+	margin:0.5rem 0;
+  	font-family: 'Roboto', sans-serif;
+  	font-size: 0.825rem;
+	text-align:center;
+}
