@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-size:1rem;
+}
+
 /* Header */
 #header{
 	text-align:center;
@@ -12,10 +16,10 @@
 /* Main Content */
 
 #main-block {
-	background-image: url("boxes_seamless.png");
+	background-image: url("background.png");
 	background-repeat: repeat;
-    	background-attachment: fixed;
-    	background-position: center; 
+    background-attachment: fixed;
+    background-position: center; 
 	width:auto;
 	display:inline-block;
 	border-radius: 5px;
@@ -80,6 +84,7 @@ header and a footer will always be above and under it respectively*/
 
 /* Extras */
 .side {
+	align-content: center;
 	margin-top: 1.5em;
 	display:inline-block;
 	float:none;
@@ -87,7 +92,11 @@ header and a footer will always be above and under it respectively*/
 }
 
 img { 
-	border-radius:10%;	
+	align-content: center;
+	border-radius:10%;
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 /* Footer */
@@ -97,6 +106,6 @@ footer {
   	height:1rem;
 	margin:0.5rem 0;
   	font-family: 'Roboto', sans-serif;
-  	font-size: 0.825rem;
+  	font-size: 0.725rem;
 	text-align:center;
 }
