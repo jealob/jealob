@@ -16,10 +16,10 @@ html {
 /* Main Content */
 
 #main-block {
-	background-image: url("background.png");
+	background-image: url("boxes_seamless.png");
 	background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: center; 
+    	background-attachment: fixed;
+   	background-position: center; 
 	width:auto;
 	display:inline-block;
 	border-radius: 5px;
