@@ -85,7 +85,7 @@ header and a footer will always be above and under it respectively*/
 /* Extras */
 .side {
 	align-content: center;
-	margin-top: 1.5em;
+	margin: 1.5em;
 	display:inline-block;
 	float:none;
 	position: fixed;	
