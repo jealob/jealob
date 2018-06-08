@@ -1,8 +1,264 @@
-.inner-background{
-    background: url("../images/author1.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+/* CSS */
+
+:root{
+  --main-theme-color:#444b64;
 }
-#focus{
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #fff;
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  .fixed-top{
+    transition: all 0.7s ease;
+    padding-top: 1px !important;
+}
+.name{
+  text-align:left;
+  margin-left:50%;
+  padding-top:250px;
+}
+
+.container-fluid{
+  padding:0;
+  height: 100%;
+  background: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  h1 {
+    font-size: 30px;
+    line-height: 49px;
+  }
+
+  p {
+    color: #000;
+  }
+
+  #master-head {
+    position: fixed;
+    z-index: 99;
+    margin: 0 0 30px;
+    width: 100%; 
+    color: #fff;
+  }
+  .fixed-top{
+    padding-top:3px;
+  }
+  section {
+    padding:30px;
+  }
+  
+ .nav-item {
+    line-height: 18px;
+    font-family: 'Kurale', serif;
+    color:#999;
+  }
+  
+  #welcome{
+    width:100%;
+    height: 500px;
+    color: #4188ff;
+ 
+  }
+
+  #name {
+    font-family: 'Kurale', serif;
+    color:#fff;
+  }
+
+  .nav-link {
+	width: auto;
+    display: inline-block;
+  }
+
+  h2,h4 {
+    font-family: 'Kurale', serif;
+    font-weight: bolder;
+    color:#000;
+  }
+  
+  .about-me{
+    color: #fff;
+    background:#7f7871;
+  }
+  .about-me a{
+    color: #444;
+  }
+
+.about-me a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+  #skills {
+    background: #787fa5;
+  }
+
+  #portfolio {
+    background:var(--main-theme-color);
+  }
+
+  #contact {
+    background: #a9a9a9;
+  }
+
+  hire ul.hire-info {
+    padding: 0;
+    display: inline-block;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+}
+
+/* Footer */
+
+footer {
+  background-color:#343a40;
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
+footer .social-icon {
+  border: none;
+  box-shadow: none;
+  display: block;
+  margin: 0 auto;
+
+}
+footer .social-icon:hover {
+  box-shadow: none;
+}
+footer .rights {
+  position: relative;
+}
+footer .rights p {
+  color: #8e8e8e;
+  font-weight: 400;
+  background: #000;
+  padding: 30px 0;
+  margin: 1px 0 0 0;
+  font-size: 14px;
+font-family: 'Raleway', sans-serif;
+}
+footer h3, footer h6 {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-size:18px;
+  color:#dde5ee;
+  margin-bottom:10px;
+}
+
+footer ul.footer-info {
+margin: 0 auto;
+padding:0;
+display: block;
+border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+}
+
+footer ul.footer-info li {
+margin-bottom: 5px;
+ letter-spacing: 1px;
+ color: #8f8f8f;
+ font-size: 14px;
+text-align:center;
+display: inline-block;
+font-family: 'Raleway', sans-serif;
+}
+
+footer ul.footer-info li i {
+ color: #4183D7 ;
+ font-size: 14px;
+ padding-right: 10px;
+ width:100%;
+}
+
+#email{
+  color: #8f8f8f;
+}
+a:hover{
+text-decoration: none;
+}
+  /* Media Queries */
+   @media (max-width: 991px){
+  #master-head {
+      text-align: center;
+  }
+}
+
+@media (max-width: 764px){
+  .name{
+    text-align: center;
+    margin:0;
+  }
+}
+
+/* Portfolio */
+
+.portfolio{
+    position: relative;
+    display: inline-block;
+}
+
+.portfolio:hover{
+    -webkit-box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.53); 
+    box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.53);
+}
+
+.work {
+   position: absolute;
+   transition: all 0.4s ease;
+   opacity: 0;
+   background: rgba(8, 8, 8, 0.657) none repeat scroll 0 0;
+   bottom:0;
+   z-index: 1;
+   width: 100%;
+   height: 100%;
+}
+
+.work-title{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+    transition: all 0.7s ease;
+}
+
+.work-title a, .work-title h4{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 	1.125rem;
+}
+
+.work-title a:hover{
     color:#4188ff;
+    transition: all 0.7s ease;
+}
+
+.fa-search-plus, .fa-code{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background:var(--main-theme-color);
+    border-radius: 100%;
+    z-index: 2;
+}
+
+.portfolio:hover .work{
+    opacity: 1; 
+   
 }

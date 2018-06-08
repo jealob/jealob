@@ -1,253 +1,382 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Alex Obaseki | Portfolio</title>
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="assets/css/style.css" />
-	<!-- Favicon Link -->
-	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alex Obaseki</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Kurale|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="74">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="master-head">
+        <div class="container">
+            <a class="navbar-brand navbar-dark navbar-nav nav-link" href="#">ALEX OBASEKI</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-home" aria-hidden="true"></i> HOME
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <i class="fa fa-user" aria-hidden="true"></i> ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">
+                            <i class="fa fa-folder" aria-hidden="true"></i> PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            <i class="fa fa-mobile" aria-hidden="true"></i> CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Container for content -->
+    <div class="container-fluid" id="main-container">
+        <section id="welcome">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 name">
+                    HI, I‘M
+                    <br>
+                    <h1 id="name">ALEX OBASEKI</h1>
+                    <br> A WEB DEVELOPER
+                    <br>
+                    <a type="button" href="#contact" class="nav-link btn btn-dark contact-button">CONTACT ME</a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about-me">
+            <div>
+                <h2 class="text text-center pt-3">About Me</h2>
+            </div>
+            <div class="">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <p>My name is Alex Obaseki, I have always been facsinated by technology. currently a student at the University
+                        of Minnesota coding boot camp studying to be a full-stack developer.
+                        <a href="#contact">Contact me</a> if you are looking for a developer that is alway earger to learn. </p>
+                    <br>
 
-	<!-- Sidebar -->
-	<section id="sidebar">
-		<div class="inner">
-			<nav>
-				<ul>
-					<li>
-						<a href="#intro">Welcome</a>
-					</li>
-					<li>
-						<a href="#about">About Me</a>
-					</li>
-					<li>
-						<a href="#portfolio">Portfolio</a>
-					</li>
-					<li>
-						<a href="#hire-me">Hire Me</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</section>
+                    <p> I have an associate in Computer Engineering, Bachelors in Computer Science, and a Master of Engineering
+                        in Computer Software and Theory. I also studied some Chinese along the way from my time in China
+                        and I am happy and looking forward to adding this coding boot camp certification to my list of achievements.
+                    </p>
+                    <br>
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+                    <p>I love traveling, though I haven't done much in that area, I would love to travel the world some day.
+                        I love learning, all sort of things, from Medicine, to Geography, to History.</p>
+                    <br>
+                </div>
+            </div>
+        </section>
 
-		<!-- Intro -->
-		<section id="intro" class="wrapper style1 fullscreen fade-up">
-			<div class="inner inner-background">
-				<h1>Welcome</h1>
-				<p>Hi,
-					<br /> I am Alex Obaseki,
-					<br/><span id="focus"> a Web Developer.</span></p>
-			</div>
-		</section>
+        <section id="portfolio">
+            <div>
+                <h2 class="text text-center pt-3">Portfolio</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 py-3">
+                    <div class="portfolio">
+                        <div class="portfolio-img">
+                            <img class="img-fluid img-thumbnail" src="assets/images/hangman.JPG" alt="Hangman">
+                        </div>
+                        <div class="work">
+                            <div class="work-title">
+                                <h4>Hangman</h4>
+                                <a href="https://github.com/jealob/Hangman-Game" class="portfolio-gallery-set">
+                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                </a>
+                                <a href="http://jealob.github.io/Hangman-Game/">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-		<!-- About -->
-		<section id="about" class="wrapper style2 spotlights">
-			<section>
-				<a href="#" class="image">
-					<img src="assets/images/author2.jpg" alt="" data-position="center center" />
-				</a>
-				<div class="content">
-					<div class="inner">
-						<h2>Background</h2>
-						<p>My name is Alex Obaseki, currently a student at the University of Minnesota coding boot camp. I have been facsinated
-							by technology since I was a kid, no, since I was a baby. I remember wondering how cars moved around without visible
-							electrical wires hanging out from their rear, then I also thought that will be a difficult and convuluted arrangement
-							to manage due to the fact that a handful of people own cars in my neighborhood at the time. Children's thought right,
-							I know.</p>
-					</div>
-				</div>
-			</section>
-			<section>
-				<a href="#" class="image">
-					<img src="" alt="" data-position="25% 25%" />
-				</a>
-				<div class="content">
-					<div class="inner">
-						<h2>My Journey</h2>
-						<p>I initially was interested in Petroleum Engineering(the biggest industry in my native Nigeria) and then Mechanical
-							Engineering, however somehow I found myself enrolled for a Computer Engineering program(the only available associate
-							degree at the time at college closest to me). Then I fell in love with computers after taking courses in Microprocessors
-							and Microcomputers. Even without computers to play around with my interest in Information and Communication Technology
-							remained as witted as when I first took those classes as teenager. I have an associate in Computer Engineering, Bachelors
-							in Computer Science, and a Master of Engineering in Computer Software and Theory. I also studied some Chinese along
-							the way from my time in China and I am happy and looking forward to adding this coding boot camp certification to
-							my list of achievements.
-						</p>
-					</div>
-				</div>
-			</section>
-			<section>
-				<a href="#" class="image">
-					<img src="" alt="" data-position="25% 25%" />
-				</a>
-				<div class="content">
-					<div class="inner">
-						<h2>Interest</h2>
-						<p>I love traveling, though I haven't done much in that area, I would love to travel the world some day. I love learning,
-							all sort of things, from Medicine, to Geography, to History.
-						</p>
-					</div>
-				</div>
-			</section>
-		</section>
-
-		<!-- Skill -->
-		<section id="portfolio" class="wrapper style3 fade-up">
-			<div class="inner">
-				<h2>Portfolio</h2>
-				<div class="features">
-					<section>
-						<span class="icon major fa-code"></span>
-						<h3>Hangman</h3>
-						<p>Using Vanilla JS built a rap world edition of the popular hangman game. Click to view the app
-							<a href="http://jealob.github.io/Hangman-Game/">here</a>, or view the code on
-							<a href="https://github.com/jealob/Hangman-Game/">github</a>.</p>
-					</section>
-					<section>
-						<span class="icon major fa-chain"></span>
-						<h3>Train Scheduler</h3>
-						<p>Train scheduler is an app that schedule daily train route.The information is saved to the database and subsequently
-							displayed using Firebase. View the app
-							<a href="http://jealob.github.io/train-scheduler/">here</a>, or view the code on
-							<a href="https://github.com/jealob/train-scheduler/">github</a>.</p>
-					</section>
-					<section>
-						<span class="icon major fa-diamond"></span>
-						<h3>Gifsable</h3>
-						<p>Employed AJAX/API technologies to built a simple app that displays interesting gifs according to user search. View
-							the app
-							<a href="http://jealob.github.io/gifsable/">here</a>, or view the code on
-							<a href="https://github.com/jealob/gifsable/">github</a>.</p>
-					</section>
-					<section>
-						<span class="icon major fa-desktop"></span>
-						<h3>Qaalbi Events</h3>
-						<p>Qaalbi Events is an event planning application, it utilizes technologies including firebase, Ajax/Aapi, and other useful
-							javascipt libraries. This solves the problem of having to receive information via different email addresses and having
-							it readily available to Qaalbi Events in an easily readable format. View Qaalbi Events webpage
-							<a href="http://jealob.github.io/hika-project/">here</a>, or view the code on
-							<a href="https://github.com/jealob/hika-project/">github</a>.</p>
-					</section>
-				</div>
-			</div>
-		</section>
-
-		<!-- Three -->
-		<section id="hire-me" class="wrapper style1 fade-up">
-			<div class="inner">
-				<h2>Get in touch</h2>
-				<div class="split style1">
-					<section>
-						<form method="post" action="#">
-							<div class="field half first">
-								<label for="name">Name</label>
-								<input type="text" name="name" id="name" />
-							</div>
-							<div class="field half">
-								<label for="email">Email</label>
-								<input type="text" name="email" id="email" />
-							</div>
-							<div class="field">
-								<label for="message">Message</label>
-								<textarea name="message" id="message" rows="5"></textarea>
-							</div>
-							<ul class="actions">
-								<li>
-									<a href="" class="button submit">Send Message</a>
-								</li>
-							</ul>
-						</form>
-					</section>
-					<section>
-						<ul class="contact">
-							<li>
-								<h3 class="icon fa-home">
-									<span class="label">Address</span>
-								</h3>
-								Minneapolis, MN 55414
-								<br /> USA
-							</li>
-							<li>
-								<h3 class="icon fa-envelope-o">
-									<span class="label">Email</span>
-								</h3>
-								<a href="mailto:inquiry@jealob.com">inquiry@jealob.com</a>
-							</li>
-							<li>
-								<h3 class="icon fa-mobile">
-									<span class="label">Phone</span>
-								</h3>
-								<span>(612) 434-8398</span>
-							</li>
-							<li>
-								<h3>Follow Me</h3>
-								<ul class="icons">
-									<li>
-										<a href="https://www.linkedin.com/in/alexander-obaseki-03014b5a/" class="fa-linkedin">
-											<span class="label">LinkedIn</span>
-										</a>
-									</li>
-									<li>
-										<a href="https://stackoverflow.com/users/6544031/jealob" class="fa-stack-overflow">
-											<span class="label">Stack Overflow</span>
-										</a>
-									</li>
-									<li>
-										<a href="https://github.com/jealob" class="fa-github">
-											<span class="label">GitHub</span>
-										</a>
-									</li>
-									<li>
-										<a href="https://www.twitter.com/jealob" class="fa-twitter">
-											<span class="label">Twitter</span>
-										</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</section>
-				</div>
-			</div>
-		</section>
-
-	</div>
-
-	<!-- Footer -->
-	<footer id="footer" class="wrapper style1-alt">
-		<div class="inner">
-			<ul class="menu">
-				<li>&copy;2018. All rights reserved.</li>
-				<li>Design:
-					<a href="http://html5up.net">HTML5 UP</a>
-				</li>
-			</ul>
-		</div>
-	</footer>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
-
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 py-3">
+                    <div class="portfolio">
+                        <div class="portfolio-img">
+                            <img class="img-fluid img-thumbnail" src="assets/images/crystal-game.JPG" alt="Crystal Collector">
+                        </div>
+                        <div class="work">
+                            <div class="work-title">
+                                <h4>Crystal Game</h4>
+                                <a href="https://github.com/jealob/crystal-game" class="portfolio-gallery-set">
+                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                </a>
+                                <a href="http://jealob.github.io/crystal-game/">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 py-3">
+                    <div class="portfolio">
+                        <div class="portfolio-img">
+                            <img class="img-fluid img-thumbnail" src="assets/images/trivia-game.JPG" alt=" Trivia Game">
+                        </div>
+                        <div class="work">
+                            <div class="work-title">
+                                <h4>Trivia Game</h4>
+                                <a href="https://github.com/jealob/TriviaGame" class="portfolio-gallery-set">
+                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                </a>
+                                <a href="http://jealob.github.io/TriviaGame/">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 py-3">
+                    <div class="portfolio">
+                        <div class="portfolio-img">
+                            <img class="img-fluid img-thumbnail" src="assets/images/gifsable.JPG" alt="Gifsable">
+                        </div>
+                        <div class="work">
+                            <div class="work-title">
+                                <h4>Gifsable</h4>
+                                <a href="https://github.com/jealob/gifsable" class="portfolio-gallery-set">
+                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://jealob.github.io/gifsable/">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 py-3">
+                    <div class="portfolio">
+                        <div class="portfolio-img">
+                            <img class="img-fluid img-thumbnail" src="assets/images/train-scheduler.JPG" alt="Train Scheduler">
+                        </div>
+                        <div class="work">
+                            <div class="work-title">
+                                <h4>Train Scheduler</h4>
+                                <a href="https://github.com/jealob/train-scheduler" class="portfolio-gallery-set">
+                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://jealob.github.io/train-scheduler/">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 py-3">
+                    <div class="portfolio">
+                        <div class="portfolio-img">
+                            <img class="img-fluid img-thumbnail" src="assets/images/hika-project.JPG" alt="Qaalbi Events">
+                        </div>
+                        <div class="work">
+                            <div class="work-title">
+                                <h4>Qaalbi Events</h4>
+                                <a href="https://github.com/jealob/hika-project" class="portfolio-gallery-set">
+                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://jealob.github.io/hika-project/">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 py-3">
+                    <div class="portfolio">
+                        <div class="portfolio-img">
+                            <img class="img-fluid img-thumbnail" src="assets/images/liri-node-app.JPG" alt=" LIRIBot">
+                        </div>
+                        <div class="work">
+                            <div class="work-title">
+                                <h4>Liri Bot</h4>
+                                <a href="https://github.com/jealob/liri-node-app" class="portfolio-gallery-set">
+                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                </a>
+                                <a href="http://jealob.github.io/liri-node-app/">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 py-3">
+                    <div class="portfolio">
+                        <div class="portfolio-img">
+                            <img class="img-fluid img-thumbnail" src="assets/images/bamazon.JPG" alt=" Bamazon">
+                        </div>
+                        <div class="work">
+                            <div class="work-title">
+                                <h4>Bamazon Node App</h4>
+                                <a href="https://github.com/jealob/bamazon" class="portfolio-gallery-set">
+                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                </a>
+                                <a href="http://jealob.github.io/bamazon/">
+                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container content">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2 class="text text-center pt-3">Skills</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="skillsGroup">
+                            <h4 class="skill">HTML5 &amp; CSS3</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="skillsGroup">
+                            <h4 class="skill">Bootstrap, Materialize</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="skillsGroup">
+                            <h4 class="skill">Javascript, jquery</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="skillsGroup">
+                            <h4 class="skill">Ajax</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="skillsGroup">
+                            <h4 class="skill">Node.js</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="skillsGroup">
+                            <h4 class="skill">Firebase</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <!-- Section Title -->
+                <h2 class="text text-center pt-3">Contact Me</h2>
+                <!-- contact form -->
+                <div class="contact-box">
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+                        <div class="messages"></div>
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-md-6 col-xs-12 form-group">
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Name *" required="required" data-error="Name is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="col-md-6 col-xs-12 form-group">
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Email *" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-xs-12 form-group">
+                                    <input id="form_subject" type="text" name="subject" class="form-control" placeholder="Subject">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"
+                                        data-error="Please,leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-default btn-send" value="Send message">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row text-center">
+                    <h3>For Freelance Project</h3>
+                </div>
+                <div class="row text-center">
+                    <ul class="footer-info">
+                        <li>
+                            <i class="fa fa-phone"></i> +1(612) 434-8398</li>
+                        <li>
+                            <a href="mailto:inquiry@jealob.com">
+                                <i class="fa fa-envelope-o"></i>
+                                <span id="email">inquiry@jealob.com</span>
+                            </a>
+                            <li>
+                    </ul>
+                </div>
+                <div class="row text-center">
+                    <div class="text-center social-icon">
+                        <a href="https://www.linkedin.com/in/alexander-obaseki-03014b5a/" target="_new">
+                            <span>
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                        <a href="https://www.twitter.com/jealob" target="_new">
+                            <span>
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                        <a href="https://github.com/jealob" target="_new">
+                            <span>
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                        <a href="https://stackoverflow.com/users/6544031/jealob" target="_new">
+                            <span>
+                                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <h6 id="name">ALEX OBASEKI</h6>
+                </div>
+            </div>
+            <div class="rights">
+                <p>&copy; 2016 - 2018. All Rights Reserved.</p>
+            </div>
+        </footer>
+        <!-- End of footer -->
+        <!-- Link to Core Bootstrap JS CDN -->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+        <script src="./assets/javascript/app.js"></script>
 </body>
 
 </html>
