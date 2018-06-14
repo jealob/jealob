@@ -1,0 +1,8 @@
+#dotenv file
+.env
+#npm packages
+node_modules/*
+
+#dreamweaver files
+_notes/*
+assets/images/_notes/*
