@@ -259,6 +259,12 @@ text-decoration: none;
 }
 
 .portfolio:hover .work{
-    opacity: 1; 
-   
+    opacity: 1;    
+}
+
+.portfolio img{
+  height: 340px;
+  width:100%;
+  display:block;
+  margin:auto;
 }
