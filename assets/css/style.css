@@ -263,8 +263,6 @@ text-decoration: none;
 }
 
 .portfolio img{
-  height: 340px;
-  width:100%;
   display:block;
   margin:auto;
 }
