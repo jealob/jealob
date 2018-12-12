@@ -34,7 +34,6 @@ $(document).ready(function () {
       subject: $("#form_subject").val().trim(),
       message: $("#form_message").val().trim(),
     }
-    console.log('submitted', message);
     $.ajax({
       url: "https://jealob-portfolio-dev.herokuapp.com/api/contact",
       type: "POST",
