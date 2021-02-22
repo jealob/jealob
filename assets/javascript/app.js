@@ -1,10 +1,10 @@
 $(document).ready(function () {
   // Add scrollspy to <body>
-  $('body').scrollspy({ target: ".navbar", offset: 74 });
   const d = new Date();
   const n = d.getFullYear();
   document.getElementById("copyright").innerHTML = n;
-</script>
+  
+  $('body').scrollspy({ target: ".navbar", offset: 74 });
   $(".nav-link").on('click', function (event) {
     if (this.hash !== "") {
       event.preventDefault();
